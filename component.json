@@ -9,6 +9,6 @@
 		"lib/ExifLocation.js"
 	],
 	"dependencies": {
-		"exifreader": "*"
+		"mattiasw/exifreader": "*"
 	}
 }
