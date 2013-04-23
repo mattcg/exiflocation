@@ -1,6 +1,6 @@
 # ExifLocation #
 
-Client-side GPS coordinate extraction using JavaScript.
+Client and server-side GPS coordinate extraction using JavaScript.
 
 ## Install ##
 
