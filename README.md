@@ -10,11 +10,13 @@ cd exif-location/
 make
 ```
 
-Alternatively, use Bower or Component to install to your project.
+Alternatively, use Component to install to your project.
 
 ```bash
 component install exiflocation
 ```
+
+ExifLocation is also available using Bower.
 
 ```bash
 bower install exiflocation
