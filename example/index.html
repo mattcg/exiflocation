@@ -1,18 +1,74 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta charset="utf-8">
-	<title>ExifLocation Example</title>
-	<script src="../build/exiflocation.standalone.js"></script>
-	<script src="main.js"></script>
+		<meta charset="utf-8">
+		<title>ExifLocation Example</title>
+		<script src="../build/exiflocation.standalone.js"></script>
+		<script src="main.js"></script>
+		<style>
+			body, input {
+				font-family: Helvetica, sans-serif;
+				color: #333;
+			}
+
+			input {
+				font-size: 0.9em;
+			}
+
+			form {
+				background: #ccc;
+			}
+
+			form, #output {
+				margin: 0 auto;
+				border-radius: 10px;
+				padding: 1em;
+				width: 20em;
+			}
+
+			#output {
+				background-color: #cee;
+			}
+
+			form + #output {
+				margin-top: 1em;
+			}
+
+			p {
+				margin-top: 0;
+			}
+
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			li.with-bg {
+				padding: 0.5em;
+				line-height: 12em;
+				text-align: center;
+				border-radius: 10px;
+				background-size: 100% auto;
+			}
+
+			li.with-bg a {
+				background-color: rgba(204, 204, 204, 0.7);
+				border-radius: 10px;
+				padding: 0.5em;
+				color: #333;
+			}
+
+			li + li {
+				margin-top: 1em;
+			}
+		</style>
 	</head>
 	<body>
-	<form>
-		<label for="file">
-		Choose a file from your computer:<br>
-		<input type="file" id="file" name="file" multiple>
-		</label>
-	</form>
-	<pre id="output"></pre>
+		<form>
+			<p><label for="file">Choose a file from your computer:</label></p>
+			<input type="file" id="file" name="file" multiple>
+		</form>
+		<div id="output"></div>
 	</body>
 </html>
