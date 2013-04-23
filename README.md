@@ -7,8 +7,8 @@ Client-side GPS coordinate extraction using JavaScript.
 You'll need [Component](https://github.com/component/component) and GNU make. Then run:
 
 ```bash
-git clone https://github.com/mattcg/exif-location.git
-cd exif-location/
+git clone https://github.com/mattcg/exiflocation.git
+cd exiflocation/
 make
 ```
 
