@@ -1,0 +1,30 @@
+{
+	"name": "exiflocation",
+	"version": "0.0.1",
+	"description": "Extract lat long data and get map location URLs from EXIF data in images.",
+	"main": "lib/ExifLocation.js",
+	"implements": ["CommonJS/Modules/1.0"],
+	"homepage": "https://github.com/mattcg/exiflocation",
+	"dependencies": {
+		"exifreader": "git://github.com/mattiasw/ExifReader.git"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "git://github.com/mattcg/exiflocation.git"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Matthew Caruana Galizia",
+			"email": "m@m.cg"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mattcg.mit-license.org/"
+		}
+	],
+	"keywords": ["exif", "gps", "jpeg", "jpg", "coordinates", "latitude", "longitude", "photos"]
+}
