@@ -2,7 +2,7 @@
 
 ## Install ##
 
-You'll need [Component](https://github.com/component/component) and GNU make. The run:
+You'll need [Component](https://github.com/component/component) and GNU make. Then run:
 
 ```bash
 git clone https://github.com/mattcg/exif-location.git
