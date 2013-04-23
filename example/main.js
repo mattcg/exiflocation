@@ -23,7 +23,7 @@ window.addEventListener('load', function() {
 
 		exifOutput = '';
 
-		loadFromFileList.loadFromFileList(files, function(err, exifLocation, index) {
+		ExifLocation.loadFromFileList(files, function(err, exifLocation, index) {
 			if (err) {
 				exifOutput = '<p>' + err + '</p>';
 			} else {
