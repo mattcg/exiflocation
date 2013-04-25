@@ -1,6 +1,7 @@
 {
 	"name": "exiflocation",
 	"version": "0.0.1",
+	"repo": "mattcg/exiflocation",
 	"description": "Extract lat long data and get map location URLs from EXIF data in images",
 	"keywords": ["exif", "gps", "jpeg", "jpg", "coordinates", "latitude", "longitude", "photos"],
 	"main": "lib/ExifLocation.js",
