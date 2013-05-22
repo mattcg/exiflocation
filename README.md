@@ -77,4 +77,4 @@ Get a Google Maps URL for the embedded location. The protocol is relative by def
 
 ## License ##
 
-ExifLocation is copyright © 2013 Matthew Caruana Galizia, licensed under an [MIT license](http://mattcg.mit-license.org/).
+ExifLocation is copyright © 2013 [Matthew Caruana Galizia](https://twitter.com/mcaruanagalizia), licensed under an [MIT license](http://mattcg.mit-license.org/).
