@@ -8,12 +8,10 @@
 	"dependencies": {
 		"exifreader": "git://github.com/mattiasw/ExifReader.git"
 	},
-	"repositories": [
-		{
-			"type": "git",
-			"url": "git://github.com/mattcg/exiflocation.git"
-		}
-	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mattcg/exiflocation.git"
+	},
 	"contributors": [
 		{
 			"name": "Matthew Caruana Galizia",
